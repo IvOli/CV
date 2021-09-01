@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.name{
+    width: 60px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
+.namedo{
+    display: flex;
+    justify-content: center;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-profile{
+    width: 200px;
+    height: 200px;
+    
+}
+h1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+h2{
+    margin-bottom: 10px;
+}
+.about{
+    margin: 20px;
+}
+.skills-hobbies {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.skills, .hobbies{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding: 10px;
+    /* background-color: antiquewhite; */
+    border-radius: 20px;
+}
+
+.experience{
+   margin:0px 20px 0px 20px;
+}
+
+.experience > ul{
+    list-style: disc;
+}
+h1{
+    color: rgb(11, 102, 138);
+}
+h2{
+    color: rgb(38, 139, 179);
+}
+h3{
+    color: rgb(45, 126, 158);
+    font-weight: bold;
+}
+h4{
+    font-size: 18px;
+    color: rgb(24, 160, 214);
+}
+/* h5{
+    font-size: 17px;
+    color: rgb(144, 172, 226);
+    
+}
+h6{
+    font-size: 15px;
+    color: rgb(179, 215, 238);
+} */
+li{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+@media (min-width:768px) {
+    .name{
+        width: 100px;
+    }
+
+    .profile-start{
+        /* background-color: darkcyan; */
+        display: flex;
+        justify-content: center;
+    }
+    .image-profile{
+        width: 400px;
+        height: 400px;
+        
+    }
+    .skills-hobbies {
+        display: flex;
+        margin: 20px;
+    }
+    .about{
+        margin-top: 80px;
+        width: 30%;
+    }
+   h3{
+        font-size: 28px;
+    }
+   p{
+       font-size: 20px;
+   }
+   .experience{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+ }
+ h1{
+     font-size: 32px;
+ }
+ h4, h5, h6{
+     font-size: 22px;
+     margin: 5px 0 5px 0;
+ }
+ li{
+     font-size: 20px;
+ }
+}
