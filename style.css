@@ -2,6 +2,28 @@
     margin: 0px;
     box-sizing: border-box;
 }
+nav{
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+a{
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+a:hover {
+    background-color: steelblue;
+    color: white;
+  }
+.navegacion{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
 .name{
     width: 60px;
 }
@@ -13,10 +35,7 @@
     margin: 20px;
 
 }
-.namedo{
-    display: flex;
-    justify-content: center;
-}
+
 .datos{
     display: flex;
     flex-direction: column;
@@ -57,9 +76,12 @@ h2{
    margin:0px 20px 0px 20px;
 }
 
-.experience > ul{
-    list-style: disc;
+.ex-lista{
+    list-style: none;
 }
+/* .ex-lista >li::before{
+        content: "- ";
+} */
 h1{
     color: rgb(11, 102, 138);
 }
@@ -92,7 +114,12 @@ li{
     .name{
         width: 100px;
     }
-
+    .ex-lista >li::before{
+        content: "- ";
+}
+    a{
+        font-size: 24px;      
+    }
     .profile-start{
         /* background-color: darkcyan; */
         display: flex;
